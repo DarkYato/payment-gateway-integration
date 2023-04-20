@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Hope for Health Foundation</title>
+</head>
+
+<body>
+
+    <nav class="navbar nav-bg nav-height">
+        <ul class="menu visibility">
+            <div class="logo"><img src="images/logo.png" alt="logo">
+                <h3>Hope for Health</h3>
+            </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="logo2"><img src="images/logo.png" alt="logo"></div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background first-sec">
+        <div class="main">
+            <div class="fhalf">
+                <p class="big">Hope for Health</p>
+                <p class="small">"Bringing hope to those in need of health. Give the gift of health -<br> donate today."</p>
+                <form>
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_LTpzf7goEPXnM2" async> </script>
+                </form>
+                <!--Razorpay Button-->
+            </div>
+            <div class="shalf">
+                <img src="images/logo.png" alt="">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="second-sec" id="about">
+        <div class="para">
+            <p class="big">Our Goal</p>
+            <p class="small paras" data-aos="fade-up">The mission of "Hope for Health" is to provide access to
+                healthcare and health education to underserved communities, both locally and internationally.Hope for
+                Health organizes medical missions to areas where healthcare is not easily accessible, provide financial
+                assistance to individuals who cannot afford medical treatment, and host health fairs and educational
+                seminars.</p>
+        </div>
+        <div class="img-one" data-aos="fade-left"><img src="images/about.jpg" alt="about"></div>
+    </section>
+    <section class="third-sec">
+        <div class="para">
+            <p class="small paras">One of the primary goals of Hope for Health is to improve access to healthcare
+                in underserved communities. This involves providing financial assistance for medical treatment,
+                organizing medical missions, or partnering with local healthcare providers to expand their reach.</p>
+        </div>
+        <div class="img-one"><img src="images/about1.jpg" alt="about"></div>
+    </section>
+    <section class="fourth-sec">
+        <div class="para">
+            <p class="small paras">Hope for Health provides health education on topics like nutrition, disease
+                prevention, and healthy lifestyle choices. Building partnerships with other healthcare organizations,
+                community groups, and local leaders is an important goal of Hope for Health. By working together, we try
+                to leverage their resources and expertise to have a greater impact on the communities they serve.</p>
+        </div>
+        <div class="img-one"><img src="images/about3.jpg" alt="about"></div>
+    </section>
+    <hr>
+    <section class="gallery" id="gallery">
+        <h2 class="center-text gtext">Photo Gallery</h2>
+        <!--<div class="table">
+            <table>
+                <tr>
+                    <td><img src="images/img1.jpg" alt="img1"></td>
+                    <td><img src="images/img2.jpg" alt="img2"></td>
+                    <td><img src="images/img3.jpg" alt="img3"></td>
+                </tr>
+                <tr>
+                    <td><img src="images/img4.jpg" alt="img4"></td>
+                    <td><img src="images/img5.jpg" alt="img5"></td>
+                    <td><img src="images/img6.jpg" alt="img6">
+                    </td>
+                </tr>
+            </table>
+        </div>-->
+        <div class="grid-container">
+            <div class="grid-item"><img src="images/img1.jpg" alt="img1"></div>
+            <div class="grid-item"><img src="images/img2.jpg" alt="img2"></div>
+            <div class="grid-item"><img src="images/img3.jpg" alt="img3"></div>
+            <div class="grid-item"><img src="images/img4.jpg" alt="img4"></div>
+            <div class="grid-item"><img src="images/img5.jpg" alt="img5"></div>
+            <div class="grid-item"><img src="images/img6.jpg" alt="img6"></div>
+        </div>
+    </section>
+    <hr>
+    <section class="contact" id="contact">
+        <h2 class="center-text">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" placeholder="Enter Your Name">
+            <input class="form-input" type="email" name="email" placeholder="Enter Your Email">
+            <input class="form-input" type="text" name="phone" placeholder="Enter Your Phone">
+            <textarea class="form-input" name="area" id="" cols="30" rows="10"
+                placeholder="Enter your message"></textarea>
+            <div><button class="submit">Submit</button></div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-text">Copyright &copy; 2008-2023 Hope for Health</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
